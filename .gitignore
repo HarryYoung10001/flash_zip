@@ -1,0 +1,21 @@
+# Local environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/
+
+# Weights, downloads, and raw experiment output
+/models/
+/data/
+*.safetensors
+*.ckpt
+*.gguf
+*.pt
+*.pth
+pytorch_model*.bin
+checkpoints/
+datasets/
+runs/
+outputs/
+*.log
